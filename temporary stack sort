@@ -1,0 +1,44 @@
+import java.util.*;
+public class Stacksort
+{
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+Stack <Integer> st=new Stack<Integer>();
+Stack <Integer> temp=new Stack<Integer>();
+int temp1=0;
+for(int i=0;i<n;i++)
+{
+st.push(s.nextInt());
+}
+while(!st.isEmpty())
+{
+temp1=st.pop();
+if(temp.isEmpty())
+{
+temp.push(temp1);
+}
+else if(temp1>temp.peek())
+{
+temp.push(temp1);
+}
+else if(temp1<temp.peek())
+{
+for(int i=0;i<temp.size();i++)
+{
+if(temp1<temp.peek())
+{
+st.push(temp.pop());
+}
+else
+{
+break;
+}
+}
+temp.push(temp1);
+}
+}
+System.out.println(temp);
+}
+}
+
