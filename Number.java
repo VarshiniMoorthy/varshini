@@ -4,40 +4,24 @@ public class Number
 public static void main(String args[])
 {
 Scanner s=new Scanner(System.in);
-int num=s.nextInt();
-int temp;
-int a[]=new int[num];
-for(int i=0;i<num;i++)
+int n=s.nextInt();
+int a[]=new int[n];
+String str="";
+String str1="";
+for(int i=0;i<n;i++)
 {
 a[i]=s.nextInt();
 }
-/*for(int i=0;i<num;i++)
+for(int i=0;i<n;i++)
 {
-for(int j=0;j<num;j++)
-{
-if(a[i]%2==0)
-{
-temp=a[i];
-a[i]=a[j];
-a[j]=temp;
+str=str+Integer.toString(a[i]);
 }
-}
-}*/
-for(int i=0;i<num;i++)
+int num=Integer.parseInt(str);
+num=num+1;
+str1=str1+Integer.toString(num);
+for(int i=0;i<n;i++)
 {
-for(int j=0;j<num;j++)
-{
-if(a[i]%2!=0)
-{
-temp=a[i];
-a[i]=a[j];
-a[j]=temp;
-}
-}
-}
-for(int i=0;i<num;i++)
-{
-System.out.println(a[i]);
+System.out.print(str1.charAt(i));
 }
 }
 }
