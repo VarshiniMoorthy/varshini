@@ -1,0 +1,7 @@
+C:\Users\SONY\source\repos\OnlineTicketBookingApp\OnlineTicketBookingApp\bin\Debug\OnlineTicketBookingApp.exe.config
+C:\Users\SONY\source\repos\OnlineTicketBookingApp\OnlineTicketBookingApp\bin\Debug\OnlineTicketBookingApp.exe
+C:\Users\SONY\source\repos\OnlineTicketBookingApp\OnlineTicketBookingApp\bin\Debug\OnlineTicketBookingApp.pdb
+C:\Users\SONY\source\repos\OnlineTicketBookingApp\OnlineTicketBookingApp\obj\Debug\OnlineTicketBookingApp.csprojAssemblyReference.cache
+C:\Users\SONY\source\repos\OnlineTicketBookingApp\OnlineTicketBookingApp\obj\Debug\OnlineTicketBookingApp.csproj.CoreCompileInputs.cache
+C:\Users\SONY\source\repos\OnlineTicketBookingApp\OnlineTicketBookingApp\obj\Debug\OnlineTicketBookingApp.exe
+C:\Users\SONY\source\repos\OnlineTicketBookingApp\OnlineTicketBookingApp\obj\Debug\OnlineTicketBookingApp.pdb
