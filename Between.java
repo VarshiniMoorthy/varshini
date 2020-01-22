@@ -5,7 +5,7 @@ public static void main(String args[])
 {
 Scanner s=new Scanner(System.in);
 int num=s.nextInt();
-int cou=0;
+int count=0;
 int a[]=new int[num];
 for(int i=0;i<num;i++)
 {
@@ -17,10 +17,10 @@ for(int j=i+i;j<num;j++)
 {
 if(a[i]==1&&a[j]==1)
 {
-cou++;
+count++;
 }
 }
 }
-System.out.print(cou);
+System.out.print(count);
 }
 }
